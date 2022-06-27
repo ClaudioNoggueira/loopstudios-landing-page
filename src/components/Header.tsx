@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import "./styles/Header.css";
-import heroImg from "../images/desktop/image-hero.jpg";
 
 export default function Header() {
   return (

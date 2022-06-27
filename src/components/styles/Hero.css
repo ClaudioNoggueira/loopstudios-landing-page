@@ -1,0 +1,31 @@
+:root {
+  --font-josefin: "Josefin Sans", sans-serif;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section .image {
+  filter: brightness(50%);
+  width: 100%;
+}
+
+.hero-section div {
+  border: 2px solid #fff;
+  padding: 2.4rem;
+  width: 56rem;
+
+  position: absolute;
+  top: 40%;
+  left: 12rem;
+}
+
+.hero-section div h1 {
+  color: #fff;
+  font-family: var(--font-josefin);
+  font-size: 6.4rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  z-index: 10;
+}

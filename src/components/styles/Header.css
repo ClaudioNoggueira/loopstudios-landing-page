@@ -1,9 +1,13 @@
 .main-header {
   background-color: transparent;
-  background-color: #121212;
   color: #fff;
   justify-content: space-between;
-  padding: 4.8rem 12rem;
+  padding: 6.4rem 12rem;
+  width: 100%;
+  z-index: 10;
+
+  position: absolute;
+  top: 0;
 }
 
 .main-nav {
@@ -26,15 +30,14 @@
   content: "";
 
   background-color: transparent;
+  height: 3.6rem;
   transition: all 0.15s;
+  width: 3.2rem;
 
   position: absolute;
   top: -25%;
   left: 50%;
   transform: translateX(-50%);
-
-  height: 3.6rem;
-  width: 3.2rem;
 }
 
 .nav-link:hover::after {
