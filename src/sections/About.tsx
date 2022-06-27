@@ -1,4 +1,4 @@
-import "../components/styles/About.css";
+import "../sections/styles/About.css";
 import interactiveImage from "../images/desktop/image-interactive.jpg";
 
 export default function About() {

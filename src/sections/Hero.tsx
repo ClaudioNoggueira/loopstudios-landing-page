@@ -1,6 +1,6 @@
 import heroImg from "../images/desktop/image-hero.jpg";
 
-import "../components/styles/Hero.css";
+import "../sections/styles/Hero.css";
 
 export default function Hero() {
   return (
