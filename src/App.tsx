@@ -1,15 +1,10 @@
-import About from "./components/About";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./Router";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-      </main>
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
