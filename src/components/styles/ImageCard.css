@@ -1,0 +1,32 @@
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container .image {
+  cursor: pointer;
+  filter: brightness(50%);
+  width: 100%;
+}
+
+.image-container h3 {
+  background-color: transparent;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  padding-right: 4.8rem;
+
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.image-container:hover .image {
+  filter: opacity(20%);
+}
+
+.image-container:hover h3 {
+  color: #000;
+}
