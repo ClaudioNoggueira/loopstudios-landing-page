@@ -43,6 +43,10 @@ h3 {
   font-family: var(--font-josefin);
 }
 
+button {
+  font-family: var(--font-josefin);
+}
+
 .flex {
   display: flex;
 }
