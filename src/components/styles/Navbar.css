@@ -4,9 +4,9 @@
 }
 
 .nav-link {
-  text-align: center;
+  padding: 1.2rem 0;
   position: relative;
-  width: 6.4rem;
+  text-align: center;
 }
 
 .nav-link:link,
@@ -18,12 +18,11 @@
   content: "";
 
   background-color: transparent;
-  height: 3.6rem;
-  transition: all 0.15s;
-  width: 3.2rem;
+  transition: all 0.25s;
+  width: 75%;
 
   position: absolute;
-  top: -25%;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
