@@ -10,6 +10,7 @@
   }
 
   .hero-section div {
+    border: 2px solid #fff;
     padding: 1.8rem;
     width: 48rem;
   }
@@ -51,11 +52,51 @@
     padding: 12rem 6.4rem 0;
   }
 
+  .about-section div {
+    right: 6.4rem;
+  }
+
   .creations-section {
     padding: 12rem 6.4rem;
   }
 
   .main-footer {
     padding: 4.8rem 6.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section div {
+    border: 1px solid #fff;
+    padding: 1.2rem;
+    width: 40rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 4.8rem;
+  }
+
+  .about-section div {
+    gap: 1.2rem;
+    padding: 4.8rem;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about-section div h2 {
+    font-size: 3.6rem;
+  }
+
+  .creations-section .flex h2 {
+    font-size: 3.6rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 5%;
+    padding-right: 0;
+  }
+
+  .main-footer {
+    gap: 4.8rem;
   }
 }
