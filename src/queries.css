@@ -152,3 +152,46 @@
     padding-right: 2.4rem;
   }
 }
+
+@media (max-width: 628px) {
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-header {
+    padding: 3.6rem;
+    padding-top: 4.8rem;
+  }
+
+  .hero-section div {
+    left: 3.6rem;
+  }
+
+  .about-section {
+    padding: 12rem 3.6rem 0;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .creations-section {
+    padding: 12rem 3.6rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-footer .flex {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-footer .socials {
+    flex-direction: row;
+  }
+
+  .main-footer .main-nav {
+    flex-direction: row;
+    gap: 3.6rem;
+  }
+}
