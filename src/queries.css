@@ -100,3 +100,55 @@
     gap: 4.8rem;
   }
 }
+
+@media (max-width: 690px) {
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main-nav {
+    gap: 2.4rem;
+  }
+
+  .hero-section div {
+    width: 32rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 3.6rem;
+  }
+  .about-section {
+    display: grid;
+    column-gap: 4rem;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .about-section .image {
+    width: 100%;
+  }
+
+  .about-section .text-container {
+    justify-content: space-between;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .about-section .text-container h2 {
+    font-size: 2.8rem;
+  }
+
+  .creations-section .flex h2 {
+    font-size: 2.8rem;
+  }
+
+  .creations-section .flex button {
+    font-size: 1.6rem;
+    padding: 1.2rem 3.2rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 10%;
+    padding-right: 2.4rem;
+  }
+}
