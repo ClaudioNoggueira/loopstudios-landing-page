@@ -9,37 +9,3 @@
   position: absolute;
   top: 0;
 }
-
-.main-nav {
-  gap: 3.2rem;
-  justify-content: center;
-}
-
-.nav-link {
-  text-align: center;
-  position: relative;
-  width: 6.4rem;
-}
-
-.nav-link:link,
-.nav-link:visited {
-  color: #fff;
-}
-
-.nav-link::after {
-  content: "";
-
-  background-color: transparent;
-  height: 3.6rem;
-  transition: all 0.15s;
-  width: 3.2rem;
-
-  position: absolute;
-  top: -25%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.nav-link:hover::after {
-  border-bottom: 3px solid #fff;
-}
