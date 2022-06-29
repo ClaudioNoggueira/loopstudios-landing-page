@@ -195,3 +195,47 @@
     gap: 3.6rem;
   }
 }
+
+@media (max-width: 540px) {
+  .main-header {
+    padding: 6.4rem 3.6rem;
+  }
+
+  .hero-section .desktop-image {
+    display: none;
+  }
+
+  .hero-section .mobile-image {
+    display: initial;
+  }
+
+  .hero-section div {
+    padding: 2.4rem;
+    top: 35%;
+    left: 3.6rem;
+    width: 60rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 6.4rem;
+    padding-right: 12rem;
+  }
+
+  .about-section {
+    row-gap: 3.6rem;
+    grid-template-columns: 1fr;
+  }
+
+  .about-section .text-container {
+    gap: 1.8rem;
+    text-align: center;
+  }
+  .about-section .text-container h2 {
+    font-size: 3.6rem;
+    margin: 0 auto;
+  }
+
+  .about-section .text-container p {
+    font-size: 1.8rem;
+  }
+}

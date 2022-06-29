@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.hero-section .mobile-image {
+  display: none;
+}
+
 .hero-section div {
   border: 3px solid #fff;
   padding: 2.4rem;
