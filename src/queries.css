@@ -238,4 +238,41 @@
   .about-section .text-container p {
     font-size: 1.8rem;
   }
+
+  /* MOBILE NAVIGATION */
+  .main-header .mobile-nav-button {
+    display: block;
+  }
+
+  .main-header svg {
+    z-index: 999;
+  }
+
+  .main-header .main-nav {
+    align-items: flex-start;
+    background-color: #000;
+    flex-direction: column;
+    gap: 2.4rem;
+    height: 100vh;
+    justify-content: center;
+    padding: 2.4rem;
+    transition: all 0.5s ease-in;
+    width: 100%;
+    z-index: 998;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .main-header .main-nav .nav-link {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
 }
