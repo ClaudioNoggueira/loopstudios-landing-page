@@ -1,0 +1,7 @@
+.mobile-nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
