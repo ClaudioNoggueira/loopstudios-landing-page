@@ -2,6 +2,10 @@
   html {
     font-size: 56.25%;
   }
+
+  .mobile-image {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -211,6 +215,7 @@
 
   .hero-section div {
     padding: 2.4rem;
+    padding-right: 12rem;
     top: 35%;
     left: 3.6rem;
     width: 60rem;
@@ -218,7 +223,6 @@
 
   .hero-section div h1 {
     font-size: 6.4rem;
-    padding-right: 12rem;
   }
 
   .about-section {
@@ -289,5 +293,72 @@
 
   .main-footer button {
     display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: initial;
+  }
+
+  .hero-section div {
+    padding: 1.6rem;
+    width: 46rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 5.6rem;
+  }
+
+  .about-section .text-container h2 {
+    font-size: 4rem;
+  }
+
+  .creations-section {
+    position: relative;
+  }
+
+  .creations-section .flex {
+    display: initial;
+  }
+
+  .creations-section .flex h2 {
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .creations-section .flex button {
+    position: absolute;
+    left: 50%;
+    bottom: 4.8rem;
+    transform: translateX(-50%);
+  }
+
+  .creations-section .image-container:first-child {
+    margin-top: 4.8rem;
+  }
+
+  .creations-section .image-container {
+    margin-top: 2.4rem;
+  }
+
+  .creations-section .image-container h3 {
+    padding-right: 55%;
+    left: 5%;
+    bottom: 15%;
+  }
+
+  .main-footer .main-nav {
+    flex-direction: column;
+    gap: 1.8rem;
   }
 }
