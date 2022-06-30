@@ -1,0 +1,384 @@
+@media (max-width: 1366px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-section div {
+    border: 2px solid #fff;
+    padding: 1.8rem;
+    width: 48rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 5.6rem;
+  }
+
+  .about-section div {
+    padding: 5.6rem;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about-section div h2 {
+    font-size: 4rem;
+  }
+
+  .creations-section .flex h2 {
+    font-size: 4rem;
+  }
+
+  .creations-section .image-container h3 {
+    padding-right: 3.6rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .main-header {
+    padding: 6.4rem;
+  }
+
+  .hero-section div {
+    left: 6.4rem;
+    top: 45%;
+  }
+
+  .about-section {
+    padding: 12rem 6.4rem 0;
+  }
+
+  .about-section div {
+    right: 6.4rem;
+  }
+
+  .creations-section {
+    padding: 12rem 6.4rem;
+  }
+
+  .main-footer {
+    padding: 4.8rem 6.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section div {
+    border: 1px solid #fff;
+    padding: 1.2rem;
+    width: 40rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 4.8rem;
+  }
+
+  .about-section div {
+    gap: 1.2rem;
+    padding: 4.8rem;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about-section div h2 {
+    font-size: 3.6rem;
+  }
+
+  .creations-section .flex h2 {
+    font-size: 3.6rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 5%;
+    padding-right: 0;
+  }
+
+  .main-footer {
+    gap: 4.8rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main-nav {
+    gap: 2.4rem;
+  }
+
+  .hero-section div {
+    width: 32rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 3.6rem;
+  }
+  .about-section {
+    display: grid;
+    column-gap: 4rem;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .about-section .image {
+    width: 100%;
+  }
+
+  .about-section .text-container {
+    justify-content: space-between;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .about-section .text-container h2 {
+    font-size: 2.8rem;
+  }
+
+  .creations-section .flex h2 {
+    font-size: 2.8rem;
+  }
+
+  .creations-section .flex button {
+    font-size: 1.6rem;
+    padding: 1.2rem 3.2rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 10%;
+    padding-right: 2.4rem;
+  }
+}
+
+@media (max-width: 628px) {
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-header {
+    padding: 3.6rem;
+    padding-top: 4.8rem;
+  }
+
+  .hero-section div {
+    left: 3.6rem;
+  }
+
+  .about-section {
+    padding: 12rem 3.6rem 0;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .creations-section {
+    padding: 12rem 3.6rem;
+  }
+
+  .creations-section .image-container h3 {
+    left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-footer .flex {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-footer .socials {
+    flex-direction: row;
+  }
+
+  .main-footer .main-nav {
+    flex-direction: row;
+    gap: 3.6rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-header {
+    padding: 6.4rem 3.6rem;
+  }
+
+  .hero-section .desktop-image {
+    display: none;
+  }
+
+  .hero-section .mobile-image {
+    display: initial;
+  }
+
+  .hero-section div {
+    padding: 2.4rem;
+    padding-right: 12rem;
+    top: 35%;
+    left: 3.6rem;
+    width: 60rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 6.4rem;
+  }
+
+  .about-section {
+    row-gap: 3.6rem;
+    grid-template-columns: 1fr;
+  }
+
+  .about-section .text-container {
+    gap: 1.8rem;
+    text-align: center;
+  }
+  .about-section .text-container h2 {
+    font-size: 3.6rem;
+    margin: 0 auto;
+  }
+
+  .about-section .text-container p {
+    font-size: 1.8rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .mobile-nav-container {
+    display: block;
+  }
+
+  .mobile-nav-button {
+    display: block;
+  }
+
+  .main-header svg {
+    z-index: 999;
+  }
+
+  .main-header .main-nav {
+    align-items: flex-start;
+    background-color: #000;
+    flex-direction: column;
+    gap: 2.4rem;
+    height: 100vh;
+    justify-content: center;
+    padding: 3.6rem;
+    transition: all 0.5s ease-in;
+    width: 100%;
+    z-index: 998;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .main-header .main-nav .nav-link {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .main-header .nav-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-footer button {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: initial;
+  }
+
+  .hero-section div {
+    padding: 1.6rem;
+    width: 46rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 5.6rem;
+  }
+
+  .about-section .text-container h2 {
+    font-size: 4rem;
+  }
+
+  .creations-section {
+    position: relative;
+  }
+
+  .creations-section .flex {
+    display: initial;
+  }
+
+  .creations-section .flex h2 {
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .creations-section .flex button {
+    position: absolute;
+    left: 50%;
+    bottom: 4.8rem;
+    transform: translateX(-50%);
+  }
+
+  .creations-section .image-container:first-child {
+    margin-top: 4.8rem;
+  }
+
+  .creations-section .image-container {
+    margin-top: 2.4rem;
+  }
+
+  .creations-section .image-container h3 {
+    padding-right: 55%;
+    left: 5%;
+    bottom: 15%;
+  }
+
+  .main-footer .main-nav {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-section div {
+    width: 40rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 5.2rem;
+  }
+
+  .image-container h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 42.5%;
+  }
+}

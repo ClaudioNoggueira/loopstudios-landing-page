@@ -1,5 +1,6 @@
 .about-section {
   padding: 12rem;
+  padding-bottom: 0;
   position: relative;
 }
 
@@ -22,7 +23,7 @@
 
   position: absolute;
   right: 12rem;
-  top: 45%;
+  bottom: 0;
 }
 
 .about-section div h2 {

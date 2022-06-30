@@ -1,13 +1,20 @@
 import "../sections/styles/About.css";
-import interactiveImage from "../images/desktop/image-interactive.jpg";
+import desktopInteractiveImage from "../images/desktop/image-interactive.jpg";
+import mobileInteractiveImage from "../images/mobile/image-interactive.jpg";
 
 export default function About() {
   return (
     <section className="about-section">
       <img
-        src={interactiveImage}
+        src={desktopInteractiveImage}
         alt="Guy playing with VR Glasses"
-        className="image"
+        className="image desktop-image"
+      />
+
+      <img
+        src={mobileInteractiveImage}
+        alt="Guy playing with VR Glasses"
+        className="image mobile-image"
       />
 
       <div className="text-container flex">
