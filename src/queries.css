@@ -362,3 +362,17 @@
     gap: 1.8rem;
   }
 }
+
+@media (max-width: 375px) {
+  .hero-section div {
+    width: 40rem;
+  }
+
+  .hero-section div h1 {
+    font-size: 5.2rem;
+  }
+
+  .image-container h3 {
+    font-size: 2.6rem;
+  }
+}
