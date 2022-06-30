@@ -30,3 +30,8 @@
 .nav-link:hover::after {
   border-bottom: 3px solid #fff;
 }
+
+.mobile-nav-container {
+  display: none;
+  z-index: 999;
+}

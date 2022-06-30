@@ -2,18 +2,15 @@ import CloseIcon from "./Icons/CloseIcon";
 import HamburgerIcon from "./Icons/HamburgerIcon";
 
 import "../components/styles/MobileNavButton.css";
-import { useState } from "react";
 
-export default function MobileNavButton() {
-  const [navOpen, setNavOpen] = useState(false);
+interface MobileNavButtonProps {
+  navIsOpen: boolean;
+}
 
-  function openAndCloseNav() {
-    setNavOpen(!navOpen);
-  }
-
+export default function MobileNavButton(props: MobileNavButtonProps) {
   return (
-    <button className="mobile-nav-button" onClick={openAndCloseNav}>
-      {navOpen ? <CloseIcon /> : <HamburgerIcon />}
+    <button className="mobile-nav-button">
+      {props.navIsOpen ? <CloseIcon /> : <HamburgerIcon />}
     </button>
   );
 }

@@ -240,7 +240,11 @@
   }
 
   /* MOBILE NAVIGATION */
-  .main-header .mobile-nav-button {
+  .mobile-nav-container {
+    display: block;
+  }
+
+  .mobile-nav-button {
     display: block;
   }
 
@@ -255,7 +259,7 @@
     gap: 2.4rem;
     height: 100vh;
     justify-content: center;
-    padding: 2.4rem;
+    padding: 3.6rem;
     transition: all 0.5s ease-in;
     width: 100%;
     z-index: 998;
@@ -274,5 +278,16 @@
     font-size: 1.8rem;
     letter-spacing: 3px;
     text-transform: uppercase;
+  }
+
+  .main-header .nav-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-footer button {
+    display: none;
   }
 }
